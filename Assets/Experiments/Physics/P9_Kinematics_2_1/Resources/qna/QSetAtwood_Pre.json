@@ -1,0 +1,122 @@
+[
+    {
+        "no":1,
+        "q":"Please enter your name",
+        "type":4,
+        "ans":null,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":0,
+        "next_q":2,
+        "ans_opts":null
+    },
+    {
+        "no":2,
+        "q":"Age",
+        "type":1,
+        "ans":null,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":1,
+        "next_q":3,
+        "ans_opts":null
+    },
+    {
+        "no":3,
+        "q":"Class",
+        "type":2,
+        "ans":null,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":2,
+        "next_q":4,
+        "ans_opts":{"options":["9th","10th","10+"]}
+    },
+    {
+        "no":4,
+        "q":"Which is your favourite game on the phone / tablet?",
+        "type":4,
+        "ans":null,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":3,
+        "next_q":5,
+        "ans_opts":null
+    },
+    {
+        "no":5,
+        "q":"Which is your favourite game on PC?",
+        "type":4,
+        "ans":null,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":4,
+        "next_q":6,
+        "ans_opts":null
+    },
+    {
+        "no":6,
+        "q":"Favourite apps?",
+        "type":6,
+        "ans_multiple_responses":["true", "true", "true", "true", "true", "true"],
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":5,
+        "next_q":7,
+        "ans_opts":{"options":["Facebook","YouTube","Instagram","SnapChat","WhatsApp", "Twitter"]}
+    },
+    {
+        "no":7,
+        "q":"Why are you studying science in Matric? (you may mark more than one option)",
+        "type":6,
+        "ans_multiple_responses":["true", "true", "true", "true", "true", "true"],
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":6,
+        "next_q":8,
+        "ans_opts":{"options":["I love working out how things work","Parents’ decision","I want to go to medical college","I want to study engineering","I want to study computer science", "I want to become a scientist (e.g., mathematician, geneticist, physicist, chemist)"]}
+    },
+    {
+        "no":8,
+        "q":"What is the purpose of the experiment with the Atwood Machine?",
+        "type":2,
+        "ans":1,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":7,
+        "next_q":9,
+        "ans_opts":{"options":["To find the mass of Earth","To find the value of acceleration due to gravity (g)","To find the mass of the weights used", "None of these"]}
+    },
+    {
+        "no":9,
+        "q":"What is the standard value of acceleration due to gravity (g) in m/s² ?",
+        "type":1,
+        "ans":"9.81",
+        "ans_min":0,
+        "ans_max":100,
+        "in_series":false,
+        "prev_q":8,
+        "next_q":10,
+        "ans_opts":null
+    },
+    {
+        "no":10,
+        "q":"Where do we see the principle of the Atwood Machine in action? (you may mark more than one option)",
+        "type":6,
+        "ans_multiple_responses":["false", "true", "false", "true"],
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":false,
+        "prev_q":9,
+        "next_q":0,
+        "ans_opts":{"options":["Fan","Elevator (lift)","Crane","Security barriers"]}
+    }
+]

@@ -1,0 +1,17 @@
+start/re-set
+**swinging** (can't add weights or operate stop-watch or save observations until stabilised)
+**stabilised** note height of m1
+apply gravity to mass hangers by clicking on stop-watch (while m1 is **dropping**, can't add/remove any masses, can't save, can't re-set stop-watch)
+when **m1 hits the ground**, stop "actual time" and freeze the mass hangers
+when user stops the stop-watch, note height of m1
+get user to calculate height of fall - user can dismiss this UI, in which case these readings will not be saved and the practical will be re-set
+user clicks on "save" to save the height and time taken for the fall, after which the practical will be re-set
+
+Marsive state	| SW status 	| action
+swinging	    | active	    | deactivate
+swinging	    | inactive	    | do nothing
+stabilised	    | inactive	    | activate
+stabilised	    | active	    | do nothing
+dropping	    | --		    | do nothing
+grounded	    | --		    | do nothing
+saved           | --            | do nothing

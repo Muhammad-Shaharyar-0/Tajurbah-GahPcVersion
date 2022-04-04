@@ -1,0 +1,51 @@
+[
+    {
+        "no":1,
+        "q":"What is the standard value of acceleration due to gravity (g) in m/s² ?",
+        "type":1,
+        "ans":"9.81",
+        "ans_min":0,
+        "ans_max":100,
+        "in_series":false,
+        "prev_q":0,
+        "next_q":2,
+        "ans_opts":null
+    },
+    {
+        "no":2,
+        "q":"What is the purpose of the experiment with the Atwood Machine?",
+        "type":2,
+        "ans":1,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":1,
+        "next_q":3,
+        "ans_opts":{"options":["To find the mass of Earth","To find the value of acceleration due to gravity (g)","To find the mass of the weights used", "None of these"]}
+    },
+    {
+        "no":3,
+        "q":"Which of these affects the acceleration of the masses? Mark the most precise option.",
+        "type":2,
+        "ans":2,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":false,
+        "prev_q":2,
+        "next_q":4,
+        "ans_opts":{"options":["m1 + m2","m1 – m2","(m1 + m2) / (m1 – m2)","m1 / m2"]}
+    },
+    {
+        "no":4,
+        "q":"Which of the following factors affects the accuracy of the Atwood Machine experiment? Mark all that apply.",
+        "type":6,
+        "ans_multiple_responses":["true", "true", "true", "false", "false"],
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":3,
+        "next_q":0,
+        "ans_opts":{"options":["friction of rope and pulley","accuracy of timing","accuracy of height measurement","height of m1","height of m2"]}
+    }
+
+]

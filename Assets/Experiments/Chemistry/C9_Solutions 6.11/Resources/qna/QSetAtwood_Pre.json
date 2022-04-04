@@ -1,0 +1,86 @@
+[
+    {
+        "no":1,
+        "q":"Please enter your name",
+        "type":4,
+        "ans":null,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":0,
+        "next_q":2,
+        "ans_opts":null
+    },
+    {
+        "no":2,
+        "q":"Age",
+        "type":1,
+        "ans":null,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":1,
+        "next_q":3,
+        "ans_opts":null
+    },
+    {
+        "no":3,
+        "q":"Class",
+        "type":2,
+        "ans":null,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":2,
+        "next_q":4,
+        "ans_opts":{"options":["9th","10th","10+"]}
+    },
+    {
+        "no":4,
+        "q":"Which One of These Compounds Crystallizes with Increase in Temperature?",
+        "type":2,
+        "ans":2,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":3,
+        "next_q":5,
+        "ans_opts":{"options":["NaCl","BaCO3","KNO3"]}
+    },
+    {
+        "no":5,
+        "q":"Which Compound will decrease in its solubility with increase in Temperature?",
+        "type":2,
+        "ans":2,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":4,
+        "next_q":6,
+        "ans_opts":{"options":["Which evolve heat when dissolved","Which absorb heat when dissolved","Which ionize in water completely","which react with water"]}
+    },
+    {
+        "no":6,
+        "q":"Is Solubility of hydrogen chloride gas and water a physical phenomenon or chemical Reaction",
+        "type":2,
+        "ans":2,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":5,
+        "next_q":7,
+        "ans_opts":{"options":["Physical phenomenon","Chemical Reaction"]}
+    },
+    {
+        "no":7,
+        "q":"Heating a soda water bottle will increase the solubility of CO2 or decrease it?",
+        "type":6,
+        "ans":2,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":true,
+        "prev_q":6,
+        "next_q":8,
+        "ans_opts":{"options":["Increase","Decrease"]}
+    }
+]

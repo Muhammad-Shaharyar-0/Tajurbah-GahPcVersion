@@ -1,0 +1,38 @@
+[
+    {
+        "no":1,
+        "q":"What is the purpose of cleaning the inside of the angle iron?",
+        "type":2,
+        "ans":1,
+        "ans_min":0,
+        "ans_max":100,
+        "in_series":false,
+        "prev_q":0,
+        "next_q":2,
+        "ans_opts":{"options":["So we can read the distance correctly","To reduce friction with the rolling ball","We should use clean equipment","None of these"]}
+    },
+    {
+        "no":10,
+        "q":"A car requires more force to climb up a hill, as compared to moving on a flat road. Why?",
+        "type":2,
+        "ans":1,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":false,
+        "prev_q":9,
+        "next_q":11,
+        "ans_opts":{"options":["There is less oxygen at higher altitudes","The car needs to lift itself up against the force of gravity","The hill is very high","None of these"]}
+    },
+    {
+        "no":11,
+        "q":"Two balls are released at the same time, one from the top and the other from a mark 50 cm below the top. Will the balls get closer or further apart as they roll down the ramp?",
+        "type":2,
+        "ans":2,
+        "ans_min":0.0,
+        "ans_max":0.0,
+        "in_series":false,
+        "prev_q":10,
+        "next_q":0,
+        "ans_opts":{"options":["The balls will get closer (the distance between the ball will reduce)","The balls will get further apart (the distance between the balls will increase)","The distance between the balls will not change"]}
+    }
+]

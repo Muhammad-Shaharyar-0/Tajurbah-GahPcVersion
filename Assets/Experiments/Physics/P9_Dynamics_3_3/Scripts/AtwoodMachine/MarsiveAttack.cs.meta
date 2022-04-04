@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 92509ba37bcf98643a919ef52fc5f303
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mass10g: {fileID: 1697514514833632, guid: c089b148a84f26b40893becef1783c0c, type: 2}
+  - mass50g: {fileID: 1349959390702680, guid: 4723ededa39a5fb4daa7092be6d8a217, type: 2}
+  - mass100g: {fileID: 1417741804676100, guid: 71d785a98a246ea43b916d6135a70737, type: 2}
+  - hotplate: {instanceID: 0}
+  - used: {instanceID: 0}
+  - rejected: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
